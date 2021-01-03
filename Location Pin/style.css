@@ -1,0 +1,23 @@
+.pin {
+  color: black;
+  width: 150px;
+  height: 150px;
+  /* background-color: currentColor; */
+  border: 5px solid currentColor;
+  border-radius: 130px 130px 130px 0;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.pin::before {
+  content: "";
+  border: 5px solid currentColor;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-radius: 100%;
+}
